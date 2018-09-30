@@ -2,11 +2,10 @@ body { background-image:url(/Basic-Portfolio/assets/images/topography.png);
 
 }
 
-  
-/*attempting to put in the nav bar */
 ul {
+    width: 960px;
     list-style-type: none;
-    margin: 0;
+    margin: auto;
     padding: 0;
     overflow: hidden;
     background-color: #ffffff;
@@ -20,6 +19,7 @@ li {
         padding: 14px 16px;
         text-decoration: none;
     }
+
 /* Makiing the center Div the right width and centered */
     .container { 
     margin:auto;

@@ -1,0 +1,28 @@
+body { background-image:url(/Basic-Portfolio/assets/images/topography.png);
+
+}
+
+  
+/*attempting to put in the nav bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+li {
+    float: right;
+        display: block;
+        color: #777777;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+/* Makiing the center Div the right width and centered */
+    .container { 
+    margin:auto;
+    width: 960px;
+    background-color:#ffffff;
+   }

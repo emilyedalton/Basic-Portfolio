@@ -1,7 +1,81 @@
 body { background-image:url(/Basic-Portfolio/assets/images/topography.png);
+    background-color: #cccccc;
+} 
+@media screen and (min-width: 30em){
+    .single-nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 960px;
+    background-color: #cccccc;
+}
+}
+li:nth-child(1) {
+    margin-right: auto; /*applied only to the right*/
 
 }
 
+/*.centered class makes the navigation and content area centered*/
+
+.centered {
+    margin: 0 auto;
+    padding: 0 1em;
+}
+@media screen and (min-width: 52em) {
+    .centered {
+        max-width: 52em;
+    }
+    /*begins actual styling of the menu */
+    .menustyle {
+        padding-bottom: 2em;
+        margin-bottom: 5em;
+    }
+    .menu ul {
+        list-style-type: none;
+        padding: 30px;
+        margin: 0;
+        background: white;
+    }
+        .menu li a {
+            display: block;
+            text-decoration: none;
+            color: #cccccc;
+            padding: .6em 1em;
+        }
+        
+        .menu li a:hover {
+            background: hsl(0, 0%, 25%);
+        }
+}
+.leftrule { border-right: .5px solid #cccccc;}
+/*start of content area styling */
+#biostyle {
+background-color:white;
+width:960px;
+border: .5px solid #cccccc;
+}
+
+.rule {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    line-height: 1.5em;
+    color:#4aaaa5;
+    font-size: 20px;
+}
+    h2 :after {
+        /*The content property is used with the ::before and ::after pseudo-elements, to insert generated content.*/
+        content:' ';
+        display:block;
+        border:1px solid #d0d0d0;
+        border-radius:4px;
+        -webkit-border-radius:4px;
+        -moz-border-radius:4px;
+        box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
+        -webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
+        -moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
+        width: 900px;
+        margin: auto;
+
+
+/* Navigation attempt 1 
 ul {
     width: 960px;
     list-style-type: none;
@@ -19,10 +93,3 @@ li {
         padding: 14px 16px;
         text-decoration: none;
     }
-
-/* Makiing the center Div the right width and centered */
-    .container { 
-    margin:auto;
-    width: 960px;
-    background-color:#ffffff;
-   }

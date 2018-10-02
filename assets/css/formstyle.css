@@ -1,0 +1,51 @@
+ {
+    box-sizing: border-box; 
+   }
+   .myForm {
+     display: flex;
+     background-color: white;
+     border-radius: 3px;
+     padding: 1.8em;
+   }
+   .message {
+    margin-right: 2em; 
+     display: flex;
+     flex-direction: column;
+   }
+   .message > textarea {
+    flex: 1; 
+    min-width: 18em;
+   }
+   .contact {
+        flex: 1; 
+   }
+   .contact input {
+   width: 850px;
+   }
+   .contact input,
+   .contact button {
+     padding: 1em;
+     margin-bottom: 1em;
+   }
+   .contact button {
+    background: gray;
+    color: white;
+    border: 0;
+   }
+
+
+/*
+.form{  
+    max-width: 960px;
+    background-color:white;
+    border: .5px solid #cccccc;
+    margin:auto;
+    }
+
+input{
+   width: 900px;
+   align-items: center;
+  
+   
+}
+

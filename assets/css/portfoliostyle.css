@@ -1,0 +1,33 @@
+.anotherdiv{
+    max-width: 960px;
+    background-color:white;
+    border: .5px solid #cccccc;
+    margin:auto;
+    
+}
+/*image container class is about half the width of the parent container.
+The gallery items are the flex items. Adding the display-flex property to the .gallery class
+made the items inside of it flex items, and were arranged in a row */
+.imagecontainer {
+    max-width: 450px;
+    margin: 0 auto;
+    border: 2px solid red;
+}
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        align-items:flex-start;
+        flex-direction: row;
+        justify-content: space-evenly;  
+    }
+
+    .gallery-item {
+        margin: 10px;
+        text-decoration: none;
+      }
+
+      
+      
+    
+
+      

@@ -1,13 +1,21 @@
 body { 
     background-image:url(/Basic-Portfolio/assets/images/topography.png);
     background-color: #cccccc;
+
+    
 } 
 @media screen and (min-width: 30em){
     .single-nav ul{
     display: flex;
     justify-content:flex-end;
     width: 100%;
-    background-color: #cccccc;
+    background-color:white;
+    
+}
+ul :nth-child(1) {
+justify-content: flex-start;
+
+
 }
 
 /*.centered class makes the navigation and content area centered*/
@@ -25,21 +33,22 @@ body {
     .menustyle {
         padding-bottom: 2em;
         margin-bottom: 5em;
+        
     }
-    .menu ul {
+    .menustyle ul {
         list-style-type: none;
         padding: 30px;
         margin: 0;
-        background: white;  
+     
       }
-        .menu li a {
+        .menustyle li a {
             display: block;
             text-decoration: none;
             color: #cccccc;
             padding: .6em 1em;
         }
         
-        .menu li a:hover {
+        .menustyle li a:hover {
             color:#11a099;
         }
 }
@@ -79,8 +88,8 @@ border: .5px solid #cccccc;
     }*/
 .imagewrap {
     float:left;
-    padding:20px
-;}
+    padding:20px;
+}
 
 p {
 padding: 20px; 
@@ -95,21 +104,3 @@ Footer{  margin: auto auto 0 auto;
 
 }
 
-/* Navigation attempt 1 
-ul {
-    width: 960px;
-    list-style-type: none;
-    margin: auto;
-    padding: 0;
-    overflow: hidden;
-    background-color: #ffffff;
-}
-
-li {
-    float: right;
-        display: block;
-        color: #777777;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    

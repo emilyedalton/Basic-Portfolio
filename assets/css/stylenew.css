@@ -1,0 +1,171 @@
+body { 
+    background-image:url(/Basic-Portfolio/assets/images/topography.png);
+    background-color: #cccccc;
+    margin: 0; 
+} 
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color:#11a099;
+	display: block;
+}
+
+p, li, footer, form {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+@media screen and (min-width: 30em){
+    .single-nav ul{
+    display: flex;
+    justify-content:flex-end;
+    width: 100%;
+    background-color:white;
+    
+}
+ul :nth-child(1) {
+justify-content: flex-start;
+
+
+}
+
+/*.centered class makes the navigation and content area centered*/
+
+.centered {
+    max-width:960;
+    margin: auto;
+    padding: 0 1em;
+}
+@media screen and (min-width: 52em) {
+    .centered {
+        max-width: 960px;
+    }
+    /*begins actual styling of the menu*/ 
+    .menustyle {
+        padding-bottom: 2em;
+        margin-bottom: 5em;
+        
+    }
+    .menustyle ul {
+        list-style-type: none;
+        padding: 30px;
+        margin: 0;
+     
+      }
+        .menustyle li a {
+            display: block;
+            text-decoration: none;
+            color: #cccccc;
+            padding: .6em 1em;
+        }
+        
+        .menustyle li a:hover {
+            color:#11a099;
+        }
+}
+.leftrule { 
+    border-right: .5px solid #cccccc;
+
+}
+/*start of content area styling */
+.biostyle {
+background-color:white;
+width:960px;
+border: .5px solid #cccccc;
+}
+ 
+
+.h2style { 
+    padding-left: 35px;
+    line-height: 2em;
+    color: #11a099;
+    
+}
+ .h2style:after{ 
+    border-bottom: 2px solid #cccccc;
+ }
+.imagewrap {
+    float:left;
+    padding:20px;
+}
+
+p {
+padding: 20px; 
+line-height:2em;
+}
+Footer{  margin: auto auto 0 auto;
+    background-color: #cccccc;
+    text-align:center;
+    padding-top: 2em;
+    margin-top: 7em;
+    border-top: 5px solid #11a099;
+
+}
+
+    /*Form*/
+    
+    box-sizing: border-box; 
+         }
+         .myForm {
+           display: flex;
+           background-color: white;
+           border-radius: 3px;
+           padding: 1.8em;
+         }
+         .message {
+          margin-right: 2em; 
+           display: flex;
+           flex-direction: column;
+         }
+         .message > textarea {
+          flex: 1; 
+          min-width: 18em;
+          max-width: 870px;
+         }
+         .contact {
+              flex: 1; 
+         }
+         .contact input {
+         width: 850px;
+         }
+         .contact input,
+         .contact button {
+           padding: 1em;
+           margin-bottom: 1em;
+         }
+         .contact button {
+          background: gray;
+          color: white;
+          border: 0;
+         }
+
+    /*portfolio*/
+    .anotherdiv{
+        max-width: 960px;
+        background-color:white;
+        border: .5px solid #cccccc;
+        margin:auto;
+        
+    }
+    /*image container class is about half the width of the parent container.
+    The gallery items are the flex items. Adding the display-flex property to the .gallery class
+    made the items inside of it flex items, and were arranged in a row */
+    .imagecontainer {
+        max-width: 450px;
+        margin: auto;
+        margin-bottom: 4em;
+        border: 2px solid red;
+    }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            align-items:flex-start;
+            flex-direction: row;
+            justify-content: space-evenly;  
+        }
+    
+        .gallery-item {
+            margin: 10px;
+            text-decoration: none;
+          }
+      

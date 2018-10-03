@@ -15,6 +15,7 @@ p, li, footer, form {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
 }
+/* navigation */
 @media screen and (min-width: 30em){
     .single-nav ul{
     display: flex;
@@ -23,12 +24,11 @@ p, li, footer, form {
     background-color:white;
     
 }
-ul :nth-child(1) {
-justify-content: flex-start;
-
-
+li:nth-child(1){
+    margin-right: auto;
 }
 
+}
 /*.centered class makes the navigation and content area centered*/
 
 .centered {
@@ -62,11 +62,11 @@ justify-content: flex-start;
         .menustyle li a:hover {
             color:#11a099;
         }
-}
+
 .leftrule { 
     border-right: .5px solid #cccccc;
-
 }
+
 /*start of content area styling */
 .biostyle {
 background-color:white;
@@ -84,14 +84,12 @@ border: .5px solid #cccccc;
  .h2style:after{ 
     border-bottom: 2px solid #cccccc;
  }
-.imagewrap {
-    float:left;
-    padding:20px;
-}
 
-p {
+
+.textstyle {
 padding: 20px; 
 line-height:2em;
+font-family: Arial, Helvetica, sans-serif;
 }
 Footer{  margin: auto auto 0 auto;
     background-color: #cccccc;
@@ -168,4 +166,8 @@ Footer{  margin: auto auto 0 auto;
             margin: 10px;
             text-decoration: none;
           }
-      
+/* my only ID down here at the bottom where it belongs */
+#imagewrap {
+float:left;
+padding:20px;
+        }

@@ -1,11 +1,12 @@
-body { background-image:url(/Basic-Portfolio/assets/images/topography.png);
+body { 
+    background-image:url(/Basic-Portfolio/assets/images/topography.png);
     background-color: #cccccc;
 } 
 @media screen and (min-width: 30em){
     .single-nav ul{
     display: flex;
     justify-content:flex-end;
-    width: 960px;
+    width: 100%;
     background-color: #cccccc;
 }
 
@@ -29,8 +30,8 @@ body { background-image:url(/Basic-Portfolio/assets/images/topography.png);
         list-style-type: none;
         padding: 30px;
         margin: 0;
-        background: white;
-    }
+        background: white;  
+      }
         .menu li a {
             display: block;
             text-decoration: none;
@@ -54,11 +55,13 @@ border: .5px solid #cccccc;
 }
  
 
-.h2style { padding-left: 35px;
+.h2style { 
+    padding-left: 35px;
     line-height: 2em;
     
 }
-h2style:after{ border-bottom: 2px solid #cccccc; 
+.h2style:after{ 
+    border-bottom: 2px solid #cccccc; 
 }
 /* h2 :after {
         The content property is used with the ::before and ::after pseudo-elements, to insert generated content.

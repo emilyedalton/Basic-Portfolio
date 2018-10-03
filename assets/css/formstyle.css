@@ -1,5 +1,5 @@
  {
-    box-sizing: border-box; 
+  box-sizing: border-box; 
    }
    .myForm {
      display: flex;
@@ -15,6 +15,7 @@
    .message > textarea {
     flex: 1; 
     min-width: 18em;
+    max-width: 870px;
    }
    .contact {
         flex: 1; 

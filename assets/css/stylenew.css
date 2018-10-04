@@ -20,14 +20,12 @@ p, li, footer, form {
     .single-nav ul{
     display: flex;
     justify-content:flex-end;
-    width: 100%;
     background-color:white;
+    font-size: 30px;
     
 }
 li:nth-child(1){
     margin-right: auto;
-}
-
 }
 /*.centered class makes the navigation and content area centered*/
 
@@ -48,7 +46,6 @@ li:nth-child(1){
     }
     .menustyle ul {
         list-style-type: none;
-        padding: 30px;
         margin: 0;
      
       }
@@ -60,7 +57,10 @@ li:nth-child(1){
         }
         
         .menustyle li a:hover {
-            color:#11a099;
+            color:white;
+            background-color:#11a099;
+            font-family: 'Georgia', Times, Times New Roman, serif;
+            font-size: 30px;
         }
 
 .leftrule { 
@@ -165,9 +165,27 @@ Footer{  margin: auto auto 0 auto;
         .gallery-item {
             margin: 10px;
             text-decoration: none;
+          /*
+          .text-wrapper {
+              width: 200px;
+              height:100px;
+              z-index: 2;
+              background-color:red;
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              text-align: center;
+              
           }
+          .text-wrapper:hover {
+            transition: all 0.8s ease;
+            background: rgba(0, 0, 0, 0.6);
+            opacity: 1;
+          }
+          
 /* my only ID down here at the bottom where it belongs */
-#imagewrap {
+        }
+#imagewrap{
 float:left;
 padding:20px;
-        }
+}

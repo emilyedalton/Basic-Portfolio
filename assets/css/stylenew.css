@@ -77,21 +77,22 @@ border: .5px solid #cccccc;
 
 .h2style { 
     padding-left: 35px;
-    line-height: 2em;
+    max-width: 880px; 
+    line-height: 4em;
     color: #11a099;
+    margin: auto;
+    border-bottom: 2px solid #cccccc;
+    
     
 }
- .h2style:after{ 
-    border-bottom: 2px solid #cccccc;
- }
-
 
 .textstyle {
 padding: 20px; 
 line-height:2em;
 font-family: Arial, Helvetica, sans-serif;
 }
-Footer{  margin: auto auto 0 auto;
+Footer{ 
+    margin: auto auto 0 auto;
     background-color: #cccccc;
     text-align:center;
     padding-top: 2em;
@@ -132,9 +133,10 @@ Footer{  margin: auto auto 0 auto;
            margin-bottom: 1em;
          }
          .contact button {
-          background: gray;
+          background: #11a099;
           color: white;
           border: 0;
+          margin-top: 10%;
          }
 
     /*portfolio*/
@@ -150,8 +152,7 @@ Footer{  margin: auto auto 0 auto;
     made the items inside of it flex items, and were arranged in a row */
     .imagecontainer {
         max-width: 450px;
-        margin: auto;
-        margin-bottom: 4em;
+        margin: 2em auto 2em auto;
         border: 2px solid red;
     }
         .gallery {

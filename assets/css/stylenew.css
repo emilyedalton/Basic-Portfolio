@@ -145,8 +145,8 @@ Footer{
     made the items inside of it flex items, and were arranged in a row */
     .imagecontainer {
         max-width: 450px;
-        margin: 2em auto 2em auto;
-        border: 2px solid red;
+        margin: 2em auto ;
+    
     }
         .gallery {
             display: flex;

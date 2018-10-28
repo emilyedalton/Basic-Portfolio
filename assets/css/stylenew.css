@@ -152,7 +152,7 @@ Footer{
             display: flex;
             flex-wrap: wrap;
             align-items:flex-start;
-            flex-direction: row;
+            flex-direction: column;
             justify-content: space-evenly;  
         }
     
@@ -183,4 +183,13 @@ Footer{
 #imagewrap{
 float:left;
 padding:20px;
+}
+@media screen and (max-width: 768px){
+    body{ 
+        background-color:black;
+    }
+    .centered{
+        width: 600px;
+
+    }
 }

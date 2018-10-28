@@ -17,3 +17,5 @@ p, li, footer, form {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
 }
+@media only screen and (max-width: 640px) {
+    body {

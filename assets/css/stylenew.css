@@ -184,12 +184,10 @@ Footer{
 float:left;
 padding:20px;
 }
-@media screen and (max-width: 768px){
+/* @media screen and (max-width: 768px){
     body{ 
         background-color:black;
     }
     .centered{
-        width: 600px;
+        width: 600px; */
 
-    }
-}
